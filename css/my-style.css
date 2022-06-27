@@ -5,7 +5,53 @@
   align-items: center;
   background-color: white;
   padding: 1.3rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .nav i {
   font-size: 1.2rem;
 }
+/* HERO============== */
+.hero-btn {
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  border: 0;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.hero-subtitle {
+  font-weight: normal;
+  font-size: 14px;
+}
+.hero-main {
+  font-size: 30px;
+  font-weight: 500;
+}
+.hero-p {
+  color: #777;
+  font-size: 14px;
+}
+.hero-img {
+  text-align: center;
+  margin: 0 2rem;
+}
+/* /HERO============== */
+
+/* ABOUT */
+.about {
+  background-color: white;
+  padding-top: 5rem;
+}
+.about-align {
+  padding: 1rem 1rem;
+}
+/* /ABOUT */
